@@ -8,14 +8,15 @@
 .header{
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
-    position: absolute;
+    background-size: contain;
     width: 1600px;
-    height: 808px;    
+    height: 808px; 
+    margin-bottom:130px;
 }
 .banner-title{
     color: #151414;
     text-align: right;
-    margin: 227px 241px 24px 834px ;
+    padding: 227px 241px 24px 834px ;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -40,4 +41,39 @@
     height: 64px;
     border-radius: 5px;
     background: #F15B22;
+}
+    /* failure section  */
+.failures{
+    display: flex;
+    margin:130px 322px 130px 206px ;
+}
+.failure-description{
+    padding: 250px 10px 70px 87px;
+}
+.failure-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+.failure-paragraph{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px 20px 16px 4px;
+}
+.failure-types{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 2px 1px;
+    padding: 2px 1px;
+    line-height:
+    
+}
+.mark-color{
+    color: 
+    #16D887;
+    width: 24px;
+    height: 24px;
+    margin: 0px 5px 0px 0px;
 }
