@@ -77,3 +77,64 @@
     height: 24px;
     margin: 0px 5px 0px 0px;
 }
+/*  my plans styles */
+.section-title{
+    color: #151414;
+    font-weight:bold;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-left: 711px;
+}
+.plan{
+    width: 218px;
+    height: 197px;
+    padding: 0px;
+    align-items: center;
+}
+.plans-container{
+    display: flex;
+    gap: 86px;
+    margin: 50px 20px 50px 300px;
+    
+}
+.plan-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 22px;
+   
+}
+.plan-description{
+    color: #737272
+   
+}
+/* contact me section */
+.contact-me{
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    margin: 130px 230px;
+    background-blend-mode: multiply;
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
+}
+.contact-title{
+    width: 459px;
+    height: 94px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 59px 617px 14px 64px ;
+}
+.btn-contact{
+    margin: 20px 916px 60px 64px;
+    background: white;
+    color: 
+    #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border:0px;
+    padding: 0px 35px 4px 35px;
+    height: 62px;
+    border-radius: 5px;
+   
+}
